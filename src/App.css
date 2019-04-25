@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 250px;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bottom{
+  text-align: center;
+  bottom: 0;
+  border: 2px solid #282c34;
+  margin-top: 150px;
+  margin-bottom: 30px;
+ }
+
+
+.welcome-text{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.thanks-text{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.add-text{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 100px;
+}
+
+.sticky{
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index:1;
+}
+
+h4{
+  margin-top: 40px;
+}
+
+.x{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.y{
+  margin-top: 150px;
+  border: 2px solid rgb(79, 79, 247);
+}
+
+.order{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cntr{
+  display: flex;
+  justify-content: space-around;
+}
+
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input[type=text] {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+  color: #4dd0e1;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
